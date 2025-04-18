@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89879fd2-e0b7-4ac9-9df5-d679ab197c91">
+  <producedTypes>
+    <objectType typeId="30f4755d-d238-4158-8bbf-bd356c823b0b" valueTypeId="6ee38eb7-5169-43b1-b6e2-41d4786bdeb9"/>
+    <refType typeId="66fb080e-9b23-435a-aa27-8f1a5aa436f5" valueTypeId="e267f612-f5f1-4d82-9a93-7409a07eb1e2"/>
+    <selectionType typeId="3bf90e81-0ce0-49b1-9f21-87f42c676f74" valueTypeId="cbbc3e7b-c81b-41be-973b-2ddbc302b2e9"/>
+    <listType typeId="5f2b0bbc-02ca-48ff-b320-9a9a9dde7884" valueTypeId="77e658b3-cc59-4c4a-8338-94425cebcdc2"/>
+    <managerType typeId="7a5eb4fd-fe23-4c1d-b315-b1ddc0e2ec81" valueTypeId="e219f3f5-61b4-4c20-8e56-92a3823cb3fe"/>
+  </producedTypes>
+  <name>Группы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Группы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Группы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dc1d7f6e-e006-4513-9dc5-121129a69fbd">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07f2e648-b8f4-49d6-86fd-d1770c34ae5c">
+    <name>Кафедра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кафедра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e82151c-1afa-4f44-bbee-4279875af823">
+    <name>Куратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куратор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc4b552f-ab43-456d-ba98-fbe3f350d959">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf418937-8822-4e57-a0a0-38fb8e4ccfdd">
+    <name>ОбразовательнаяПрограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образовательная программа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2fb73af-d845-4ba1-8a33-cc9fa22e878c">
+    <name>ПрофильНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль направления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -40,4 +40,9 @@
   </languages>
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
+  <catalogs>Catalog.Группы</catalogs>
+  <catalogs>Catalog.Кафедры</catalogs>
+  <catalogs>Catalog.ПреподавательскийСостав</catalogs>
+  <catalogs>Catalog.СписокСтудентов</catalogs>
+  <catalogs>Catalog.Факультеты</catalogs>
 </mdclass:Configuration>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1455ca38-cb04-4461-b624-84178654134f">
+  <producedTypes>
+    <objectType typeId="d94aa774-3423-43e5-9739-1aa1d8b0eb2f" valueTypeId="6c633dbb-6460-4adf-ac0a-42599f5b4a53"/>
+    <refType typeId="053066d1-6830-457e-a2db-59faec7f87aa" valueTypeId="135c6826-a913-4409-8e4e-65185be8944f"/>
+    <selectionType typeId="4fde7517-96e3-44cf-88b1-209d286a7d6b" valueTypeId="9e39d8d1-204a-415a-9771-f32fc3e66bdc"/>
+    <listType typeId="93d5328e-628d-4fa9-a666-1a43713280a1" valueTypeId="74e1f0b2-37d1-4a23-bf5a-fbb910d1e1de"/>
+    <managerType typeId="b02d5f48-ffd9-45d0-be74-0bc2ca07cc2c" valueTypeId="af37fadc-1e98-4118-b697-9e1d44ad1831"/>
+  </producedTypes>
+  <name>ПреподавательскийСостав</name>
+  <synonym>
+    <key>ru</key>
+    <value>Преподавательский состав</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПреподавательскийСостав.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПреподавательскийСостав.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cde592bc-bde6-4b8f-885a-1818684f363b">
+    <name>Кафедра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кафедра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b18ed86e-1837-4b17-bb32-1aba4f80b61e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ab5edb5-1fc3-493a-a88b-beccc4adb8b9">
+    <name>УченаяСтепень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая степень</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

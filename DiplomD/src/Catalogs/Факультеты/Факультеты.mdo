@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa1bfb97-3af5-40a2-af17-ade80ae66ecd">
+  <producedTypes>
+    <objectType typeId="2f4b61f5-b0b7-425f-8dd8-f76315510eb8" valueTypeId="70b7a653-2ca2-445e-8b9a-c4b6a6f8ca70"/>
+    <refType typeId="70c3e6ef-4ac1-4b02-80fb-4628f3f4bb46" valueTypeId="5f65828a-5c60-4ff0-9fe5-f69dd382684d"/>
+    <selectionType typeId="ef94289a-d776-4f24-8734-a5b2421a6c0a" valueTypeId="ede313ab-514e-41d6-8fdf-afdf96fb50fa"/>
+    <listType typeId="fde63a5b-3323-47eb-8245-7abd0de8dca6" valueTypeId="de7f6db8-daec-4f5a-b87a-c560491cfa83"/>
+    <managerType typeId="0f19058e-e50c-4511-a1f1-831aa25b081b" valueTypeId="3755c4d4-bf23-4e51-baf0-24a857e4df40"/>
+  </producedTypes>
+  <name>Факультеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факультеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6ba05a15-a331-4ec9-bba4-120e40c426f6">
+    <name>ДеканФакультета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декан факультета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
