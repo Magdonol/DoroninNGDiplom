@@ -38,4 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
+  <constants>Constant.ПроректорПоУчебнойРаботе</constants>
 </mdclass:Configuration>

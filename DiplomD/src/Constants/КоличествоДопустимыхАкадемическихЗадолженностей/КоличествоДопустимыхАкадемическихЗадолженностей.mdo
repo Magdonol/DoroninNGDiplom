@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="013b6428-46d7-4e3b-aa90-b7ad7e43567f">
+  <producedTypes>
+    <managerType typeId="603a6526-b244-4ccf-b9b4-8a925af8c333" valueTypeId="ceb2d0da-d10a-4328-82b6-f1a08b76ad06"/>
+    <valueManagerType typeId="a4980181-93e6-409a-a434-7eed8304f33d" valueTypeId="590d836d-ad6b-45e4-b3b5-af2aa492cb88"/>
+    <valueKeyType typeId="1152783d-9bea-44cf-8ab7-8c86cef84959" valueTypeId="e15879b4-cb43-4166-ab66-648c5ddf6518"/>
+  </producedTypes>
+  <name>КоличествоДопустимыхАкадемическихЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество допустимых академических задолженностей</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

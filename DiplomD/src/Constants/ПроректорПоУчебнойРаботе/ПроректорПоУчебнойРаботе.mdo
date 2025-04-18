@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fa4e6cf-b736-4bcd-9a75-4fd7188a4ac9">
+  <producedTypes>
+    <managerType typeId="118f9d9b-f0cf-4424-b8d1-22424e14a97e" valueTypeId="62fe03a0-2ff5-4799-9dea-de158eb22090"/>
+    <valueManagerType typeId="59d6f8dc-bb21-4a66-9b0f-38f13a6263e2" valueTypeId="6ec64a62-0fb0-40c6-9559-08f133b953c7"/>
+    <valueKeyType typeId="2664a5dc-009a-4ed6-a0a1-4828ade5d106" valueTypeId="ea8e7e68-0c6a-456e-b5c2-77b630442597"/>
+  </producedTypes>
+  <name>ПроректорПоУчебнойРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проректор по учебной работе</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
