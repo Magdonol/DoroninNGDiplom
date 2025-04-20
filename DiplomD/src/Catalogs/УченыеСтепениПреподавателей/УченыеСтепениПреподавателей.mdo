@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7238bd6f-e133-4a16-8e2e-683fcce34b15">
+  <producedTypes>
+    <objectType typeId="704e9298-2955-495d-a827-50dbc8fb5c73" valueTypeId="1ebdde1c-f1b4-4121-942d-6885f89ac428"/>
+    <refType typeId="9d71db95-4981-420f-971d-cc3ff0ea6790" valueTypeId="32d31076-3a9e-4bcd-991d-6acd6294cf59"/>
+    <selectionType typeId="0f3ce979-268d-44e1-bed5-73f6505b7b48" valueTypeId="0301c55a-5cfa-4576-a7e8-96fed17da65d"/>
+    <listType typeId="a8afbe89-2150-4567-ba0d-c455e5e1fa31" valueTypeId="8f3d1006-99f7-4553-9008-f64d9bfca9af"/>
+    <managerType typeId="aecfe18a-63db-49ba-b727-0db66629edc8" valueTypeId="7d88d20a-6d79-4938-b664-9784272b4043"/>
+  </producedTypes>
+  <name>УченыеСтепениПреподавателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученые степени преподавателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УченыеСтепениПреподавателей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УченыеСтепениПреподавателей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

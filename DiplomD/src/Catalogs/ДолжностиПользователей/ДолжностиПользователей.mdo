@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57c69580-d450-4775-a039-70d8ff120b71">
+  <producedTypes>
+    <objectType typeId="9f975f1f-17b7-4499-866a-aea6068b0587" valueTypeId="8b7c54df-4a9c-4706-ba58-56e260250ffd"/>
+    <refType typeId="5ac46db5-3000-4043-b260-e8dbfba27481" valueTypeId="4232665e-0bd3-4e32-aa61-4d851bf841be"/>
+    <selectionType typeId="0ea3b7bc-44f3-420a-91d7-211adee0d845" valueTypeId="68d8457a-4ab1-47c2-b4c7-0c83b7e750e2"/>
+    <listType typeId="9582a878-2b06-41aa-bef9-9f319451cd2c" valueTypeId="5afb322c-b95d-48ea-8ae1-b8f3b5a112ef"/>
+    <managerType typeId="a5c27cd0-e1da-4b43-afec-eb0e9ced179d" valueTypeId="f0fde33d-642f-4fb1-9b08-2566d8a95af9"/>
+  </producedTypes>
+  <name>ДолжностиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДолжностиПользователей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДолжностиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="238a9777-a6cb-4f22-80d8-60d265e1cbe6">
+      <name>АдминистраторИС</name>
+      <description>Администратор ИС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="8ceb8a6c-31a1-4f53-b49c-49970bd5d662">
+      <name>Преподаватель</name>
+      <description>Преподаватель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="943956a5-0356-4073-86a1-83e71f6f8bac">
+      <name>СотрудникКафедры</name>
+      <description>Сотрудник кафедры</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9acd84d3-1628-4e40-9852-44fee968aa39">
+  <producedTypes>
+    <objectType typeId="88e9211f-00fd-4239-b1ab-cd5f7c6ab6d2" valueTypeId="e495a6e9-9f79-4e84-8445-6e8742de978a"/>
+    <refType typeId="9c256b9d-43c6-401e-ad3e-a86bd754c481" valueTypeId="1edc851f-051a-4fef-8b45-1b1793b0de4c"/>
+    <selectionType typeId="2f102e1d-6e1f-4727-b92a-d943262888a2" valueTypeId="5219f7aa-f0de-4d31-8f32-fe95b7354840"/>
+    <listType typeId="c014d8ee-f70f-4201-90ca-f9127e593ccb" valueTypeId="873ccddd-7198-4d17-a47d-ad108b47f7d3"/>
+    <managerType typeId="f850e40a-5248-447c-addf-32b48d66bfb6" valueTypeId="1c06c813-5faa-414c-a5d1-d4c80ea49f13"/>
+  </producedTypes>
+  <name>ПланСдачиСессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>План сдачи сессии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПланСдачиСессии.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПланСдачиСессии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e75b935e-a8b9-4dfa-838b-7912b84357bb">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7705c831-522e-4238-83cc-acd311582276">
+    <name>ПериодНачалаСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7a6b35b-eb32-44b4-b9d6-65c49512d6ad">
+    <name>ПериодОкончанияСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период окончания сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a162d1fe-4b9c-4c84-8127-4d2dbbcae0a7">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

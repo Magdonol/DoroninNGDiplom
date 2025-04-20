@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb0557e7-8c01-4ee5-b680-cc0c93fb25d0">
+  <producedTypes>
+    <objectType typeId="ed3317e0-06ab-4380-8a97-838f0f877399" valueTypeId="b02a6118-b078-4636-8430-4507876f2c50"/>
+    <refType typeId="61fd38c2-5f39-4fcc-839f-233ec2efa915" valueTypeId="8026e40b-07c8-44b4-9ea5-6869addd4cf7"/>
+    <selectionType typeId="ff6f1fd0-86dc-4345-b5a3-df24bfa6ea36" valueTypeId="2eced22c-41bb-4bef-a7e0-60c52a416ced"/>
+    <listType typeId="4fcbeab5-e553-4d60-b2cd-aab1de289b1e" valueTypeId="5b32d749-b8f9-420c-be38-d4bb401660c2"/>
+    <managerType typeId="b949a883-d02a-4671-83b9-71cdcfef3352" valueTypeId="57040b2c-a5f2-4166-99d5-e6aaa9854a70"/>
+  </producedTypes>
+  <name>ДолжностиПреподавательскогоСостава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности преподавательского состава</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДолжностиПреподавательскогоСостава.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДолжностиПреподавательскогоСостава.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

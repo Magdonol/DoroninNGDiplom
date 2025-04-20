@@ -41,8 +41,19 @@
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
   <catalogs>Catalog.Группы</catalogs>
+  <catalogs>Catalog.ДолжностиПользователей</catalogs>
+  <catalogs>Catalog.ДолжностиПреподавательскогоСостава</catalogs>
   <catalogs>Catalog.Кафедры</catalogs>
+  <catalogs>Catalog.ОбразовательныеПрограммы</catalogs>
+  <catalogs>Catalog.ОбъемыПромежуточнойАттестации</catalogs>
+  <catalogs>Catalog.ПланСдачиСессии</catalogs>
+  <catalogs>Catalog.ПользователиИС</catalogs>
   <catalogs>Catalog.ПреподавательскийСостав</catalogs>
+  <catalogs>Catalog.ПрофилиНаправления</catalogs>
+  <catalogs>Catalog.РабочаяПрограммаДисцилины</catalogs>
   <catalogs>Catalog.СписокСтудентов</catalogs>
+  <catalogs>Catalog.УровниОбразования</catalogs>
+  <catalogs>Catalog.УченыеСтепениПреподавателей</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
+  <catalogs>Catalog.ФормыОбучения</catalogs>
 </mdclass:Configuration>

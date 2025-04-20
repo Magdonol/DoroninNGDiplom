@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1398c446-af07-4343-a633-60ac8d4ce531">
+  <producedTypes>
+    <objectType typeId="36f11dfd-00dc-42b4-9980-3b43a6af54a6" valueTypeId="d0e1fdfb-9420-4b68-9045-2fedf91cda58"/>
+    <refType typeId="dcad22d1-9d49-4fc4-a6ed-340a3e80d1ec" valueTypeId="2951872f-475e-4222-ba89-6fe74cd5699e"/>
+    <selectionType typeId="0fa6b434-2634-4f88-9eee-dc19e2223fd6" valueTypeId="2bed4ca7-cab5-48b8-b84e-2826e8659736"/>
+    <listType typeId="0e8958b5-4417-45f2-a333-43ee7aeedd42" valueTypeId="fb815ef9-a854-4605-b0a8-d75538e99752"/>
+    <managerType typeId="87106c82-f228-45f9-b32f-526fbc2b7b5b" valueTypeId="641bd671-2763-424c-94c0-1f2849724a43"/>
+  </producedTypes>
+  <name>ОбъемыПромежуточнойАттестации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объемы промежуточной аттестации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбъемыПромежуточнойАттестации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОбъемыПромежуточнойАттестации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5dded440-bbbd-44a0-bcde-624e362ee3f9">
+    <name>МаксКолБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макс кол баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e005ebb-9cab-4175-ba55-1ff397e5c409">
+    <name>Незачтено</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 (Не зачтено)&lt;</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b40c276-1037-47a8-a13d-735cf3e73110">
+    <name>Зачтено</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 (Зачтено) >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74ac2025-c213-46e7-98c9-a0f0bad09ea2">
+    <name>Четыре</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8cd8ba4-6c3e-4698-8e47-dac74d0f3bd0">
+    <name>Пять</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5659ea00-f335-42e1-a1b7-45b1a8068022">
+    <name>АвтоматЗачтено</name>
+    <synonym>
+      <key>ru</key>
+      <value>«Автомат» Оценка «зачтено»>=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e4ebf06-9007-4c49-9b0c-13c86938262b">
+    <name>АвтоматХорошоОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>«Автомат» Оценка 4 «хорошо»>=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8291c3c5-e3ad-4800-b77d-f12a4af1608a">
+    <name>АвтоматХорошоДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>«Автомат» Оценка 4 «хорошо»&lt;</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83a72b52-b024-44bf-bf76-0ccd767db0aa">
+    <name>АвтоматОтлично</name>
+    <synonym>
+      <key>ru</key>
+      <value>«Автомат» Оценка 5 «отлично»>=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0dc3b700-071e-4573-85bf-9b067da055df">
+    <name>КоличествоТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество тестов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5019dc16-0055-4820-a85a-b5d724df3900">
+    <name>КоличествоРейтинговыхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество рейтинговых работ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

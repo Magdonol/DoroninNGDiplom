@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9397957-2b2d-4523-af00-ce9dfccdaf37">
+  <producedTypes>
+    <objectType typeId="7572b81b-78a0-4334-83ee-30166f7e23d3" valueTypeId="9866c63f-a2f9-47ea-8ff2-4862a82e3f96"/>
+    <refType typeId="41472cfc-ceaf-4aaf-8821-c71808c7ecac" valueTypeId="99957fcc-34de-449d-b7c7-34f6cb0e982e"/>
+    <selectionType typeId="2fb373b6-ef40-447c-83fd-dfa8f061c603" valueTypeId="b4121b77-67da-4b57-b2a0-09bc00477b10"/>
+    <listType typeId="19801271-282e-4f2c-a04a-843b0d1b94fb" valueTypeId="71629cd2-8861-4845-837b-bba86c9ad8be"/>
+    <managerType typeId="987b4f88-91ef-47a5-b3d8-15f06cc51b28" valueTypeId="41be5e7f-55e6-4345-935d-cbc787a98578"/>
+  </producedTypes>
+  <name>ПрофилиНаправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили направления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофилиНаправления.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрофилиНаправления.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="61b35755-2992-4ad5-9b15-921740ad8314">
+    <name>УровеньОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень образования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

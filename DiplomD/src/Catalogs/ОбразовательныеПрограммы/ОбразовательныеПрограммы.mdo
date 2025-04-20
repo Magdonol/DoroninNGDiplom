@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac7877d1-521c-4442-bfd5-aae78b439cda">
+  <producedTypes>
+    <objectType typeId="ca686901-7784-4fd2-bb4e-11084265ad7e" valueTypeId="47a3bd5f-8457-4a81-b9cb-346e11973d9e"/>
+    <refType typeId="d0c9775e-9cea-486d-9a14-197f4b167914" valueTypeId="b204a20d-17d8-4c0f-bfe7-910d1218f6ad"/>
+    <selectionType typeId="0557d3a8-519d-453e-8d81-2e39dc6c56ed" valueTypeId="14201f86-1bd7-47ac-add4-3dca7c6da5fc"/>
+    <listType typeId="c597397f-e4f9-4e79-aceb-46ad222ddbdb" valueTypeId="1ca2ef9c-8d3c-418e-b3b6-3394d5daf143"/>
+    <managerType typeId="8f1604db-55ce-4b9e-8b2d-d9d289a7d1a4" valueTypeId="a5e29093-7d0f-4847-b45b-ab8989e99e3b"/>
+  </producedTypes>
+  <name>ОбразовательныеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образовательные программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбразовательныеПрограммы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОбразовательныеПрограммы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ec8b5d66-8bba-41df-a802-0df728b4ab0c">
+    <name>УровеньОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень образования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="de3b5e72-9bc3-447f-8aef-999dba9fba23">
+    <producedTypes>
+      <objectType typeId="c48e5140-8688-4366-a17f-2e799d9b76ef" valueTypeId="9a034117-0d74-48ac-ae6f-cd84432fcefc"/>
+      <rowType typeId="fc9df0ae-3872-449a-8103-6d44930f37b0" valueTypeId="e5014bfa-ca00-4bcd-841d-0c9facf7d388"/>
+    </producedTypes>
+    <name>ПрофилиНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили направления</value>
+    </synonym>
+    <attributes uuid="5774f642-1e4b-464f-b7d8-6518e2217016">
+      <name>ПрофилиНаправления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Профили направления</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3a6199fc-1ff1-45af-863c-267323e2b889">
+    <producedTypes>
+      <objectType typeId="2aeb3ca1-70f1-45d4-9a50-fb498ecd2277" valueTypeId="e66358d2-d27d-4bbd-83cc-12d155a3e7cf"/>
+      <rowType typeId="fd4c1a0a-3218-4741-836d-965e0042fd36" valueTypeId="5e7b35f1-c1f4-4b03-b330-f690a507d3ff"/>
+    </producedTypes>
+    <name>ДоступныеФормыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные формы обучения</value>
+    </synonym>
+    <attributes uuid="5a018a9e-f389-4843-9efa-119a3e357e14">
+      <name>ФормаОбучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Форма обучения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

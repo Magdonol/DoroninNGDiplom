@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0cd0187-a9ce-4cb6-ade3-231cf2fb5306">
+  <producedTypes>
+    <objectType typeId="589f0fa8-9576-404b-85d1-d365c2c4b869" valueTypeId="a4055bb7-3c81-4c4a-9171-6a8792d1f64c"/>
+    <refType typeId="892bdf68-e93a-4811-9d52-001c40f13b43" valueTypeId="f9d02d75-7c43-4d74-b588-bce989a81e4d"/>
+    <selectionType typeId="79672b71-b587-4d08-844c-dca1f3171dd5" valueTypeId="1beb1829-1c37-448d-bc1d-3d31ad1b02a1"/>
+    <listType typeId="12987c98-cfaa-4d7b-90fd-655566d21c0a" valueTypeId="6be355ff-a744-4620-9503-f2d436be5fe8"/>
+    <managerType typeId="c1970466-759e-4a0f-86cc-b3fa699d5be0" valueTypeId="06dbe77b-1e66-423c-b44f-1998af9e4b36"/>
+  </producedTypes>
+  <name>УровниОбразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни образования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УровниОбразования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УровниОбразования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
