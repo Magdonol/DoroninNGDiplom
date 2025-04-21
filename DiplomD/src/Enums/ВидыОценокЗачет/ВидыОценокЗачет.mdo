@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac0ee057-a1ff-429c-afc2-011608d3e89c">
+  <producedTypes>
+    <refType typeId="da8af01b-dc50-4b8f-9be0-bab721054c96" valueTypeId="6e78fdf5-d079-4089-a00f-f9b1a9e7280f"/>
+    <listType typeId="7a5d7c41-9a37-4dba-85b5-fb5d15f52b3b" valueTypeId="84ff5bf4-8d3b-457f-8e31-dc298853165d"/>
+    <managerType typeId="46c58e63-e158-4071-9ee4-7a7d9a8b01d7" valueTypeId="fe7188c9-8244-42a9-8ad9-0dbc899064e3"/>
+  </producedTypes>
+  <name>ВидыОценокЗачет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оценок зачет</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="61c9e60e-ff2f-4a04-85d3-31c4b9ad3a57">
+    <name>Зачтено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачтено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daf63ab6-dd58-4fb9-89d6-f96bfbf0d5bd">
+    <name>НеЗачтено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не зачтено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

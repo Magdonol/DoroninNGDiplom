@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87b6be95-712e-4136-84c8-f83ca812986a">
+  <producedTypes>
+    <refType typeId="3b632ade-1738-4f7d-8804-b6c782008ef3" valueTypeId="2be27639-5f50-4dbe-94ac-33713968dade"/>
+    <listType typeId="8cd47dda-50f3-49bf-b8c8-3453cc4295c5" valueTypeId="4ad28929-b2f4-4bff-a835-37d59f23670d"/>
+    <managerType typeId="8fa67d34-5155-4df1-b5b0-355a9a28b5cc" valueTypeId="16dd2b02-2caf-4032-87f5-523615989dfc"/>
+  </producedTypes>
+  <name>Семестры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семестры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2669c1cf-f140-40d4-b5a8-88098a4042c9">
+    <name>Псеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9af92d6e-6166-4fa2-87d9-dba66ac8f9bd">
+    <name>Втсеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f058238-b0dc-45f8-8691-fcb1b16f424a">
+    <name>Трсеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c168e4d8-c273-4890-b95a-413445484540">
+    <name>Чтсеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1c79130-d66d-46cd-8fc9-01dfbe09a063">
+    <name>ПятСеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d676300d-e049-4498-a88c-ea9a5ab6a992">
+    <name>ШесСеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="626e86d4-194f-4868-9b2e-e3fb273e7991">
+    <name>СедСеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>7 семестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b80588f-756d-4d72-a8e6-ccbea522e4db">
+    <name>ВосСеместр</name>
+    <synonym>
+      <key>ru</key>
+      <value>8 семестр</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

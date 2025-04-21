@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2c10966-17a1-42f4-8e64-b2dced78f07f">
+  <producedTypes>
+    <refType typeId="1a705e2e-6047-4eee-9440-085f714287af" valueTypeId="c2205c13-eb92-4633-9320-29ab2e1373fd"/>
+    <listType typeId="5a1a3e20-0949-4288-83e7-c2ec6a956cb1" valueTypeId="fe998371-ba17-4910-bcfa-c825889f91ae"/>
+    <managerType typeId="8908634d-2988-4427-aa41-7d1c59126e5a" valueTypeId="2c343fe5-9ee0-4150-b59a-afbd21b4e54a"/>
+  </producedTypes>
+  <name>ВидОценивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид оценивания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fee7dcc3-08dc-427e-8ba2-d034f1fa3579">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92782d71-862d-4ec5-9286-81ac06360f97">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a910577-8708-4a09-9949-d8f0f3c232d5">
+    <name>ДиффЗачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дифф зачет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

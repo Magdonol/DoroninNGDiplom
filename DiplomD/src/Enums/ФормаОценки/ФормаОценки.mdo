@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3f80d0d-7757-4bcf-939f-ecc7ed37bb80">
+  <producedTypes>
+    <refType typeId="7f1793f1-c778-4632-864f-51bd17fe12cb" valueTypeId="ab3ee3b1-ee98-4281-afce-86d5572cef1e"/>
+    <listType typeId="537f45e8-4db7-469c-81c4-198f7020efa3" valueTypeId="6e0b3c36-1530-4b7f-8ac9-72724bc8a721"/>
+    <managerType typeId="3d75eb87-89d4-4fe3-b223-9b8d10605f01" valueTypeId="b38db3cf-f744-42e2-918e-ebe71e224478"/>
+  </producedTypes>
+  <name>ФормаОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма оценки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="71e6a5a8-76f7-410c-9b16-bd01b3389092">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80cd4c49-4147-4287-ab05-00c6d7c3139a">
+    <name>Незачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незачет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

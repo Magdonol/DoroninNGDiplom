@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b73726c8-cf68-4a06-89d7-524cbc8254db">
+  <producedTypes>
+    <refType typeId="8e3a8fe9-10f4-4a00-9929-3399e3701909" valueTypeId="d520d2d5-5367-4c4a-b137-63590bef8784"/>
+    <listType typeId="8f0bb866-68c0-4149-8636-8c243bf85f9b" valueTypeId="1ede2ed0-ca18-4eb3-b97c-487466c44ffd"/>
+    <managerType typeId="3b4175c9-8789-44a3-ad38-ac96129cb9c0" valueTypeId="650f2f22-cc36-4a37-99b3-53f2d35ac33c"/>
+  </producedTypes>
+  <name>ФормыТекущегоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы текущего контроля</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42bba5cc-2474-4917-91c1-bf58991a7883">
+    <name>Семинар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семинар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82ec2e02-3c8f-4b7f-a0ee-1821f6362fbd">
+    <name>КонтрольнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c633e0a4-3821-4b80-b3f8-1fc83924500f">
+    <name>ЛабораторнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лабораторная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c14cda50-6768-4260-8f3d-9ee7614ef88e">
+    <name>ПрактическаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Практическая работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b153203-7a38-4946-ae62-ebef5b918def">
+    <name>НИР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Научно-исследовательская работа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

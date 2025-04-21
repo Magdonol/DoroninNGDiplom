@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fa62b2e-cc37-4d2a-9097-3b07b568a9a0">
+  <producedTypes>
+    <refType typeId="bc361db9-1400-4044-bb4a-b5fb73c73623" valueTypeId="6ece303b-23c6-4f5c-a11c-7eec621b3bf1"/>
+    <listType typeId="1317191e-8efe-4468-b2bf-a93bde5c4fb6" valueTypeId="1be3eb43-3a57-4048-9146-e8f379c642f0"/>
+    <managerType typeId="546ea841-ce24-4da9-bb68-c0b91f01c312" valueTypeId="2ca2d904-34cf-4215-9144-bc44b33904ea"/>
+  </producedTypes>
+  <name>СтатусыЧленовКомиссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы членов комиссии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4347af5a-605f-4a06-8233-f7e377ef8c64">
+    <name>Председатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Председатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45fd441e-7016-471c-9e45-acc474a85fa3">
+    <name>ЧленКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член комиссии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

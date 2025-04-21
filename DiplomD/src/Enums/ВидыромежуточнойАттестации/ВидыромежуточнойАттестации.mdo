@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c644019-aa3d-491a-89ed-ed8fa48d6d98">
+  <producedTypes>
+    <refType typeId="75dc3550-f006-4b64-bd7a-c91459d28182" valueTypeId="e44aa08e-3f4c-483e-912b-06a397a88ca7"/>
+    <listType typeId="714b6c15-e1ce-4f92-b322-258e6084df0a" valueTypeId="84b42084-fb44-417e-9f4d-cf507b7efe94"/>
+    <managerType typeId="541f8c21-d79b-4412-90fd-1c8958111d6a" valueTypeId="7d05c4c4-796e-4bd7-8cb7-9fde0682ccba"/>
+  </producedTypes>
+  <name>ВидыромежуточнойАттестации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видыромежуточной аттестации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5133d0ff-a732-4cb8-8c51-dd28b9ac1a9e">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53ab414f-6d8a-4704-b2bd-bd76c802b0b7">
+    <name>РейтинговаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинговая работа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

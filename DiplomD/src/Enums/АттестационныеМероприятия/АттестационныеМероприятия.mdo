@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c14bacd-c6b3-4292-ac13-acb22e7c4ad1">
+  <producedTypes>
+    <refType typeId="af9e0ee1-19f5-469d-9650-50b8d435d6e9" valueTypeId="5d1c3c8a-9369-4590-8a82-4cdfceb7aba3"/>
+    <listType typeId="b8d8e2bf-3137-4815-829a-b136bee2a95f" valueTypeId="b414c02e-ac2d-4d1d-b59e-71345af0260f"/>
+    <managerType typeId="b4204a95-ab90-4d56-9acd-46e2548da610" valueTypeId="c8b82a56-ed0a-48da-8b17-b33bee2eb559"/>
+  </producedTypes>
+  <name>АттестационныеМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттестационные мероприятия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5181d3e1-b6f0-4f25-b9fc-0b364977ff6a">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91cafb66-aa28-43f4-bece-af791db67952">
+    <name>Экзамен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экзамен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c44da7d7-5a1a-4c2e-bdda-e918d08e3cff">
+    <name>ДиффЗачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дифф зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9e7d187-e3ae-4ea4-a787-4335d16ead21">
+    <name>КурсоваяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсовая работа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
