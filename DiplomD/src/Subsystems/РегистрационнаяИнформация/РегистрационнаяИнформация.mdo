@@ -10,5 +10,5 @@
   <content>Catalog.ДолжностиПользователей</content>
   <subsystems>ОбразовательныеПрограммы</subsystems>
   <subsystems>СотрудникиИПреподаватели</subsystems>
-  <subsystems>СтудентыИгруппы</subsystems>
+  <subsystems>СтудентыИГруппы</subsystems>
 </mdclass:Subsystem>

@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РабочаяПрограммаДисцилины.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="888f8702-a847-448d-8bca-9118cea41395">
     <producedTypes>
       <objectType typeId="e2049415-705c-4cc6-bb8e-8fe2efe69b92" valueTypeId="c4ea6299-6720-48de-8900-7cfae497bb50"/>
@@ -316,4 +317,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="cee31049-2e2b-4bcf-948d-7eb5b344ce21">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

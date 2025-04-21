@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОбъемыПромежуточнойАттестации.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="5dded440-bbbd-44a0-bcde-624e362ee3f9">
     <name>МаксКолБаллов</name>
     <synonym>
@@ -228,4 +229,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="5b465d4b-e74c-47b3-b379-90d062f94b4a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
