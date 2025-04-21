@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4bfc56c-9559-4ba8-8f64-1474d98033ff">
+  <name>ТекущийКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий контроль</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СписокСтудентов</content>
+  <content>Catalog.Группы</content>
+  <content>Catalog.РабочаяПрограммаДисцилины</content>
+  <content>Catalog.ПрофилиНаправления</content>
+  <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
+</mdclass:Subsystem>

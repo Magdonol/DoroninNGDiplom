@@ -38,6 +38,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.АттестацияСтудентов</subsystems>
+  <subsystems>Subsystem.РегистрационнаяИнформация</subsystems>
+  <subsystems>Subsystem.УспеваемостьСтудентов</subsystems>
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
   <catalogs>Catalog.Группы</catalogs>

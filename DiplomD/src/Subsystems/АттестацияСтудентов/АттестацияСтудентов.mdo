@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fdd67c3-65a0-49fe-b868-9636e4e8f745">
+  <name>АттестацияСтудентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттестация студентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Аттестация</subsystems>
+  <subsystems>ПромежуточнаяАттестация</subsystems>
+  <subsystems>ТекущийКонтроль</subsystems>
+</mdclass:Subsystem>

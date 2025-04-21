@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc559503-a389-473b-b296-a078b8aaf0ac">
+  <name>Аттестация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттестация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</content>
+  <content>Constant.ПроректорПоУчебнойРаботе</content>
+  <content>Catalog.СписокСтудентов</content>
+  <content>Catalog.Группы</content>
+  <content>Catalog.ПреподавательскийСостав</content>
+  <content>Catalog.РабочаяПрограммаДисцилины</content>
+  <content>Catalog.ОбъемыПромежуточнойАттестации</content>
+  <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
+</mdclass:Subsystem>

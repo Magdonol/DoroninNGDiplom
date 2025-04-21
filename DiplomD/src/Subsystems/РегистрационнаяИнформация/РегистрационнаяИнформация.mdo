@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="901bc60f-850c-43de-aeb7-4a7089b63689">
+  <name>РегистрационнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрационная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДолжностиПользователей</content>
+  <subsystems>ОбразовательныеПрограммы</subsystems>
+  <subsystems>СотрудникиИПреподаватели</subsystems>
+  <subsystems>СтудентыИгруппы</subsystems>
+</mdclass:Subsystem>

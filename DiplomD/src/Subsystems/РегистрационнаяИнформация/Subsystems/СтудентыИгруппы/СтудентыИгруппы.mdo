@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ae3e76b-35cb-4b09-8fc0-0ae6699249d9">
+  <name>СтудентыИгруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Студенты игруппы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СписокСтудентов</content>
+  <content>Catalog.Группы</content>
+  <content>Catalog.Кафедры</content>
+  <content>Catalog.Факультеты</content>
+  <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.ПрофилиНаправления</content>
+  <content>Catalog.УровниОбразования</content>
+  <parentSubsystem>Subsystem.РегистрационнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

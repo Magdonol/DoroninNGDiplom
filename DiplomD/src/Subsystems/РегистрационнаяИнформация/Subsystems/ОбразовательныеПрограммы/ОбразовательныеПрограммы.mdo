@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a964dcf8-9e17-4291-82db-fdb0104f520d">
+  <name>ОбразовательныеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образовательные программы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОбразовательныеПрограммы</content>
+  <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.РабочаяПрограммаДисцилины</content>
+  <content>Catalog.ПланСдачиСессии</content>
+  <content>Catalog.ОбъемыПромежуточнойАттестации</content>
+  <content>Catalog.ПрофилиНаправления</content>
+  <parentSubsystem>Subsystem.РегистрационнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>
