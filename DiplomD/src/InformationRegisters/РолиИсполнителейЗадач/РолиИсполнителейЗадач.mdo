@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc30b928-cb9e-4463-862b-2abb5a5b9c35">
+  <producedTypes>
+    <selectionType typeId="1693c9ac-73fb-4b3d-8066-9983098aef73" valueTypeId="c41019a3-134a-480d-9e0a-f19adbeb551a"/>
+    <listType typeId="fe17e3ab-db36-44a4-ab8d-4c8efdae7677" valueTypeId="b93ac079-9daf-4ddf-b203-b565d1e55646"/>
+    <managerType typeId="8f32479a-abc8-4387-80f1-8c0428d1835e" valueTypeId="c1980f41-a6cb-4831-9a7e-5ab1cb3a7912"/>
+    <recordSetType typeId="9033c089-d57a-4eb3-a2c3-dbd9d48eca3f" valueTypeId="a3684943-d0bf-4b5b-a780-127568c54326"/>
+    <recordKeyType typeId="bcf58814-ff87-4c6c-a360-0003f0365b8d" valueTypeId="1c776b1a-2a4a-4e1a-acbb-0eb0f4a29440"/>
+    <recordType typeId="506e780c-25f3-469e-bdc7-57a7ad52c411" valueTypeId="0748053b-4d04-4a03-bc2c-9c5bcc3b0739"/>
+    <recordManagerType typeId="1d7e0e8f-0453-4788-83e1-5c8c7f0b95c6" valueTypeId="687f9cfd-3e31-43fa-9ffa-a5605e460fcc"/>
+  </producedTypes>
+  <name>РолиИсполнителейЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли исполнителей задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ed0810c4-32b8-4528-8af4-ec94804b28c8">
+    <name>ПользовательИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ИС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a20828d0-51cf-4f75-ab60-8554369347ec">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДолжностиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

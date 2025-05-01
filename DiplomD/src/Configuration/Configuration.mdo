@@ -69,4 +69,5 @@
   <enums>Enum.ФормаОплатыОбучения</enums>
   <enums>Enum.ФормаОценки</enums>
   <enums>Enum.ФормыТекущегоКонтроля</enums>
+  <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
 </mdclass:Configuration>
