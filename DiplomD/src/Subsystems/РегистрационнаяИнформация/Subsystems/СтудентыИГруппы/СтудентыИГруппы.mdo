@@ -15,5 +15,6 @@
   <content>Catalog.ПрофилиНаправления</content>
   <content>Catalog.УровниОбразования</content>
   <content>Document.ЗачетнаяКнижкаСтудента</content>
+  <content>Document.ФормированиеУчебныхГрупп</content>
   <parentSubsystem>Subsystem.РегистрационнаяИнформация</parentSubsystem>
 </mdclass:Subsystem>

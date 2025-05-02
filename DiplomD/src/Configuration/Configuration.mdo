@@ -60,6 +60,7 @@
   <catalogs>Catalog.Факультеты</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
   <documents>Document.ЗачетнаяКнижкаСтудента</documents>
+  <documents>Document.ФормированиеУчебныхГрупп</documents>
   <enums>Enum.АттестационныеМероприятия</enums>
   <enums>Enum.ВидОценивания</enums>
   <enums>Enum.ВидыОценокЗачет</enums>
