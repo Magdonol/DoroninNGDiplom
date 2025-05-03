@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef76fcac-a689-44fd-811f-a077562f8476">
+  <producedTypes>
+    <objectType typeId="c9aa3e4b-73c1-45a4-a537-914954a2f602" valueTypeId="08106fab-de7c-4f85-8a6c-1dbe42776e87"/>
+    <refType typeId="721ef3c9-bb4a-4975-9bde-c62cb14c280f" valueTypeId="7dd27682-03d6-4050-b634-0396412deac4"/>
+    <selectionType typeId="f8278dce-c57d-4b4c-88ac-d4d09ec5b616" valueTypeId="83adf5e6-6528-43d5-824a-e8267034f5eb"/>
+    <listType typeId="ee3e9afc-475b-4bcf-a1c7-a5cf49fd7e46" valueTypeId="f5480ecf-6ca5-4bd9-8bc1-d8c016b16cd8"/>
+    <managerType typeId="cb0e6f53-af99-4e83-97a6-68bfee921afa" valueTypeId="0fb361a8-94b5-4a07-bc90-07ca39c87f7d"/>
+  </producedTypes>
+  <name>СписокНаОтчисление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список на отчисление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписокНаОтчисление.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="446960e4-0013-42f2-9622-f5829a5a0b9a">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fccdf19e-bd40-4ab2-a610-309db623920c">
+    <producedTypes>
+      <objectType typeId="dd3f9815-b6e0-4a87-ab77-2323a5119eaa" valueTypeId="1b2dc880-2ed1-45a3-8532-67a72cacf416"/>
+      <rowType typeId="2045a912-2617-4144-86cd-abce785fff76" valueTypeId="80b43702-bc10-4595-998c-e6ffd9f13132"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="eec0a00f-d391-407b-ab78-a39aed1448fd">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент(ка)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокСтудентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e7faab12-3ecc-4925-8055-f20949d6cd04">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e32aef52-045f-434c-83ac-9bcd486a6d92">
+      <name>КоличествоНеЛиквидированныхАкадемЗадол</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество не ликвидированных академических задолженностей</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c3270319-000f-4109-9a9e-46bbb98124f9">
+      <name>Отчислить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отчислить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

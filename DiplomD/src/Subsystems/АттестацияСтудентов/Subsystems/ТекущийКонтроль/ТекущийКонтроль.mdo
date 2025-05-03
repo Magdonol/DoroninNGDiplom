@@ -11,5 +11,6 @@
   <content>Catalog.Группы</content>
   <content>Catalog.РабочаяПрограммаДисцилины</content>
   <content>Catalog.ПрофилиНаправления</content>
+  <content>Document.ТекущийКонтроль</content>
   <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
 </mdclass:Subsystem>

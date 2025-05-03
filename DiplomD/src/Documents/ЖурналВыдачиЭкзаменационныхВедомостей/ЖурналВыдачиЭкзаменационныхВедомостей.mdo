@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3081460-5b03-42c5-ab07-b0818df0cd27">
+  <producedTypes>
+    <objectType typeId="1bbfbb16-1a68-4118-abc2-50c0705b0ea4" valueTypeId="a5408b2a-71be-4151-bb15-b3579b9cb469"/>
+    <refType typeId="962fa232-9782-420c-a8d9-a339784921c7" valueTypeId="e3b4a44d-85aa-4558-9eaa-a145aea9a6b6"/>
+    <selectionType typeId="f7d5d8b3-f208-414a-92e9-21bb6d94cc14" valueTypeId="fdaaf541-405a-4759-adca-2bd48e5ec0aa"/>
+    <listType typeId="306f6eaf-0859-4c91-a2fd-ad65c38c5bca" valueTypeId="234ad155-0a31-4c3d-91a9-0b61fb7e1051"/>
+    <managerType typeId="393eb624-fca6-4adb-bde4-7347ff99a4d2" valueTypeId="7d93ef62-fec6-4986-b00a-c4f052ab9153"/>
+  </producedTypes>
+  <name>ЖурналВыдачиЭкзаменационныхВедомостей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал выдачи экзаменационных ведомостей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЖурналВыдачиЭкзаменационныхВедомостей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f966876c-59ea-4624-98a2-7a7538f39736">
+    <name>ПериодСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период сессии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПланСдачиСессии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce73cab7-bcc6-4587-8677-87fbb527b682">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f04272a6-9f66-43a6-9836-10c89d58537f">
+    <name>ДатаНачалаСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d26b9f7-672d-483e-9ba0-af71d241bc64">
+    <name>ДатаОкончанияСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77773ae6-d730-4566-81bf-61ed14a96271">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5298a93b-103e-4c08-8d7b-65904665ba2f">
+    <producedTypes>
+      <objectType typeId="c6f822f7-dafe-4119-9e7b-1ba7f5add54a" valueTypeId="1cba3114-84c4-427d-8aea-2105f3c02567"/>
+      <rowType typeId="1c267409-2d7a-47cb-a2ed-4df0fe2e5cad" valueTypeId="22308760-9066-484e-ab06-72eeadbe63b7"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="52120611-092e-484b-a6a6-badf115adbf4">
+      <name>Ведомость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ведомость</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗачетноЭкзаментационнаяВедомость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6abc6374-ddc8-4da8-bb7d-3f89f588cdd6">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c5f93a6-4453-4f63-95d1-c1f58ff1ace5">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочаяПрограммаДисцилины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fce77ae8-032b-49c4-b086-895b398b9836">
+      <name>Принял</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принял</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПреподавательскийСостав</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

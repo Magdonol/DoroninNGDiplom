@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0b83579-b674-43b1-aa01-d7185f5ee321">
+  <producedTypes>
+    <objectType typeId="ac34cbec-5822-4b25-9d8d-ba601cf167dc" valueTypeId="d126023a-4df8-400d-b832-88f99b7216e5"/>
+    <refType typeId="cae68a3d-3cd0-4f88-89f6-4dcf6a3c8fa2" valueTypeId="f1393679-5874-4931-93b7-e815a1848709"/>
+    <selectionType typeId="c505cd29-d530-4243-a170-b1bcc509d580" valueTypeId="46fa84fe-2060-4e75-8396-2617fc7d119d"/>
+    <listType typeId="48aa3cdb-3b38-41d1-9cbd-b79945a405c3" valueTypeId="4098a345-2e53-4dd0-bda9-7f835660dec8"/>
+    <managerType typeId="0a809d31-c8e9-4bc5-a2bd-2deba0906327" valueTypeId="ff928bbf-05f3-4ae8-90fe-86d46c08820d"/>
+  </producedTypes>
+  <name>УспеваемостьСтудентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Успеваемость студентов (перечень академических задолженностей)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УспеваемостьСтудентов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a96ce5ea-1555-464c-b03e-d407317d195f">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a804ca7-0ea6-4591-a343-d86eac55675b">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7e1c34fd-aaf9-48b1-9e80-b8bcc19085a1">
+    <producedTypes>
+      <objectType typeId="a0162229-e303-4f49-b095-bd0c758d3e32" valueTypeId="38df0168-ca6a-4ab8-abe0-ad803330cf60"/>
+      <rowType typeId="d650c7de-236a-4038-ae57-520cf9cf74ff" valueTypeId="78f673cc-4dcc-4935-9da6-cd0b49c3b128"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="5bbe30dc-f70d-45e6-9496-8b34291b4359">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент(ка)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокСтудентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3d721592-30f9-412c-a442-22696266a701">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочаяПрограммаДисцилины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c7879e2-18ed-43ac-be30-956bcbfd3c9f">
+      <name>НаличиеАкадемЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наличие академ задолженности</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b77410cd-b700-4071-85ff-942b4220ec1f">
+      <name>ЗаявлениеНаПереаттестацию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявление на переаттестацию</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

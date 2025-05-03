@@ -59,7 +59,16 @@
   <catalogs>Catalog.УченыеСтепениПреподавателей</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
+  <documents>Document.ЖурналВыдачиЭкзаменационныхВедомостей</documents>
   <documents>Document.ЗачетнаяКнижкаСтудента</documents>
+  <documents>Document.ЗачетноЭкзаментационнаяВедомость</documents>
+  <documents>Document.ЗаявленияНаПересдачу</documents>
+  <documents>Document.Переаттестация</documents>
+  <documents>Document.ПланПроведенияПромежуточнойАттестации</documents>
+  <documents>Document.ПромежуточнаяАттестация</documents>
+  <documents>Document.СписокНаОтчисление</documents>
+  <documents>Document.ТекущийКонтроль</documents>
+  <documents>Document.УспеваемостьСтудентов</documents>
   <documents>Document.ФормированиеУчебныхГрупп</documents>
   <enums>Enum.АттестационныеМероприятия</enums>
   <enums>Enum.ВидОценивания</enums>
@@ -71,4 +80,5 @@
   <enums>Enum.ФормаОценки</enums>
   <enums>Enum.ФормыТекущегоКонтроля</enums>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РейтингСтудентов</accumulationRegisters>
 </mdclass:Configuration>

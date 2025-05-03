@@ -11,5 +11,7 @@
   <content>Catalog.Группы</content>
   <content>Catalog.ПреподавательскийСостав</content>
   <content>Catalog.ПланСдачиСессии</content>
+  <content>Document.ПромежуточнаяАттестация</content>
+  <content>Document.ПланПроведенияПромежуточнойАттестации</content>
   <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
 </mdclass:Subsystem>

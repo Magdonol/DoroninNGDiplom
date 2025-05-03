@@ -14,5 +14,9 @@
   <content>Catalog.ПреподавательскийСостав</content>
   <content>Catalog.РабочаяПрограммаДисцилины</content>
   <content>Catalog.ОбъемыПромежуточнойАттестации</content>
+  <content>Document.ЗачетноЭкзаментационнаяВедомость</content>
+  <content>Document.ЗаявленияНаПересдачу</content>
+  <content>Document.Переаттестация</content>
+  <content>Document.ЖурналВыдачиЭкзаменационныхВедомостей</content>
   <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
 </mdclass:Subsystem>
