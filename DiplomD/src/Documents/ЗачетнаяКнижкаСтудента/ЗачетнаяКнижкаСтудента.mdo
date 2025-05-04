@@ -23,6 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗачетнаяКнижкаСтудента.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.УспеваемостьСтудентов</registerRecords>
+  <registerRecords>AccumulationRegister.Сессия</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="33ca5ffd-6757-4d08-9e6c-5e2105b763be">
@@ -88,6 +91,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f375f1cd-eb9f-4cad-af81-efb99e9cc9d2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="79ca4f5f-bdf9-4ae8-850d-a479b3d7f3c4">
     <producedTypes>
       <objectType typeId="03f58374-73b5-4f1e-b4fd-36b45bd55a23" valueTypeId="a39e7391-8562-4ccc-9214-f3a1cd62c711"/>

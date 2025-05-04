@@ -10,4 +10,6 @@
   <content>AccumulationRegister.РейтингСтудентов</content>
   <content>Document.УспеваемостьСтудентов</content>
   <content>Document.СписокНаОтчисление</content>
+  <content>AccumulationRegister.УспеваемостьСтудентов</content>
+  <content>AccumulationRegister.Сессия</content>
 </mdclass:Subsystem>

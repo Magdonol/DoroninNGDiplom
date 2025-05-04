@@ -41,6 +41,7 @@
   <subsystems>Subsystem.АттестацияСтудентов</subsystems>
   <subsystems>Subsystem.РегистрационнаяИнформация</subsystems>
   <subsystems>Subsystem.УспеваемостьСтудентов</subsystems>
+  <commonModules>CommonModule.ПереводВЧетырехБалСистему</commonModules>
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
   <catalogs>Catalog.Группы</catalogs>
@@ -81,4 +82,6 @@
   <enums>Enum.ФормыТекущегоКонтроля</enums>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РейтингСтудентов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Сессия</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УспеваемостьСтудентов</accumulationRegisters>
 </mdclass:Configuration>

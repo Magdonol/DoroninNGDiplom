@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3943b09-0d72-4616-a930-a77d0272b7c5">
+  <producedTypes>
+    <selectionType typeId="6b3de326-3edd-47fe-8bf7-b7d3511424e5" valueTypeId="106accd7-8f08-45af-b96e-f510bba5034c"/>
+    <listType typeId="1bef76f8-0ccc-4feb-b195-f52d616ce885" valueTypeId="6292a87e-18fa-4ab6-8fa5-0d2f17aab3b3"/>
+    <managerType typeId="4d09a65d-9ccc-4d5e-95e5-f34aa2860855" valueTypeId="7f0ef781-cf5e-4668-8432-0e149770f015"/>
+    <recordSetType typeId="efa31f47-f4a4-4d79-8d89-bbaeb2adb49d" valueTypeId="6f398acb-d2ec-48a8-86f4-a3d5d26fc780"/>
+    <recordKeyType typeId="dcfa60c7-0a60-47b6-843b-8f9a159cc97a" valueTypeId="a8f7ab59-aeb1-40fc-aaa9-5b50f0261c05"/>
+    <recordType typeId="d1d0adf7-083a-46fd-962c-973a5f9db90f" valueTypeId="3ff8a99e-cb8f-474d-a6f1-bcc5c600a674"/>
+  </producedTypes>
+  <name>Сессия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="872312d6-401a-415b-9295-5602b69fb87f">
+    <name>КолчиествоВыставленныхОценок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колчиество выставленных оценок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b25c7c7f-10cf-4a6a-b792-cc7356917e99">
+    <name>КоличествоАкадемическихЗадолженностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество академических задолженностей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="23a10f9d-71f4-49db-a25e-d4174c9b41b6">
+    <name>КоличествоПроведенныхПереаттестаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество проведенных переаттестаций</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="beec3367-0a45-433d-abda-e890435e4a42">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="06bc9487-b673-44cc-a07d-f27a1d289689">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

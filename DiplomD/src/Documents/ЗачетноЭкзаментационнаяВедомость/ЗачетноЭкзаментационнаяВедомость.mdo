@@ -24,7 +24,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗачетноЭкзаментационнаяВедомость.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.РейтингСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7ef933a9-45a6-476a-94d1-dd3ba85fc00d">
@@ -333,7 +332,11 @@
         <value>Рекомендуемая оценка</value>
       </synonym>
       <type>
+        <types>Number</types>
         <types>EnumRef.ВидыОценокЗачет</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

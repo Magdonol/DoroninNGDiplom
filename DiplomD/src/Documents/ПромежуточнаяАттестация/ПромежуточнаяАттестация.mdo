@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПромежуточнаяАттестация.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.РейтингСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -123,10 +124,7 @@
       <value>Основание</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>DocumentRef.ПланПроведенияПромежуточнойАттестации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -182,6 +180,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="713dd05b-d3b0-432f-b85b-989db9c327e9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="5b349496-f28a-405f-9f4a-9ecdbd3c1fca">
     <producedTypes>
       <objectType typeId="710adb03-5a4a-46e3-bbd4-b63f12bfa493" valueTypeId="e39b6e55-b0af-4774-910d-9c83f62cebf6"/>
