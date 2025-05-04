@@ -101,7 +101,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Студент</name>
+    <name>Группа</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -109,14 +109,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Студент</segments>
+      <segments>Объект.Группа</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>СтудентПриИзменении</name>
-    </handlers>
     <extendedTooltip>
-      <name>СтудентРасширеннаяПодсказка</name>
+      <name>ГруппаРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -131,7 +127,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СтудентКонтекстноеМеню</name>
+      <name>ГруппаКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -155,7 +151,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Группа</name>
+    <name>Семестр</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -163,10 +159,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Группа</segments>
+      <segments>Объект.Семестр</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СеместрПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ГруппаРасширеннаяПодсказка</name>
+      <name>СеместрРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -181,58 +181,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ГруппаКонтекстноеМеню</name>
+      <name>СеместрКонтекстноеМеню</name>
       <id>11</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ДатаНачалаГосударственнойИтоговойАттестации</name>
-    <id>13</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДатаНачалаГосударственнойИтоговойАттестации</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ДатаНачалаГосударственнойИтоговойАттестацииРасширеннаяПодсказка</name>
-      <id>15</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ДатаНачалаГосударственнойИтоговойАттестацииКонтекстноеМеню</name>
-      <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -256,7 +206,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>ТЧ</name>
-    <id>16</id>
+    <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -268,7 +218,7 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ТЧНомерСтроки</name>
-      <id>29</id>
+      <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -279,7 +229,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ТЧНомерСтрокиРасширеннаяПодсказка</name>
-        <id>31</id>
+        <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -294,7 +244,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТЧНомерСтрокиКонтекстноеМеню</name>
-        <id>30</id>
+        <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -313,6 +263,56 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ТЧСтудент</name>
+      <id>29</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ТЧ.Студент</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТЧСтудентРасширеннаяПодсказка</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТЧСтудентКонтекстноеМеню</name>
+        <id>30</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ТЧДисциплина</name>
       <id>32</id>
       <visible>true</visible>
@@ -323,10 +323,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТЧ.Дисциплина</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧДисциплинаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧДисциплинаРасширеннаяПодсказка</name>
         <id>34</id>
@@ -367,7 +363,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТЧСеместр</name>
+      <name>ТЧНаличиеАкадемЗадолженности</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -375,10 +371,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТЧ.Семестр</segments>
+        <segments>Объект.ТЧ.НаличиеАкадемЗадолженности</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТЧСеместрРасширеннаяПодсказка</name>
+        <name>ТЧНаличиеАкадемЗадолженностиРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -393,7 +389,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТЧСеместрКонтекстноеМеню</name>
+        <name>ТЧНаличиеАкадемЗадолженностиКонтекстноеМеню</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -402,22 +398,15 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>CheckBoxField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТЧКурс</name>
+      <name>ТЧЗаявлениеНаПереаттестацию</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -425,10 +414,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТЧ.Курс</segments>
+        <segments>Объект.ТЧ.ЗаявлениеНаПереаттестацию</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТЧКурсРасширеннаяПодсказка</name>
+        <name>ТЧЗаявлениеНаПереаттестациюРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -443,7 +432,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТЧКурсКонтекстноеМеню</name>
+        <name>ТЧЗаявлениеНаПереаттестациюКонтекстноеМеню</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -452,73 +441,16 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>CheckBoxField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ТЧПреподаватель</name>
-      <id>41</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТЧ.Преподаватель</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ТЧПреподавательРасширеннаяПодсказка</name>
-        <id>43</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ТЧПреподавательКонтекстноеМеню</name>
-        <id>42</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <autoCommandBar>
       <name>ТЧКоманднаяПанель</name>
-      <id>18</id>
+      <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -534,10 +466,10 @@
         <common>true</common>
       </userVisible>
       <name>ТЧСтрокаПоиска</name>
-      <id>20</id>
+      <id>17</id>
       <extendedTooltip>
         <name>ТЧСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>22</id>
+        <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -552,7 +484,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТЧСтрокаПоискаКонтекстноеМеню</name>
-        <id>21</id>
+        <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -572,10 +504,10 @@
         <common>true</common>
       </userVisible>
       <name>ТЧСостояниеПросмотра</name>
-      <id>23</id>
+      <id>20</id>
       <extendedTooltip>
         <name>ТЧСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>25</id>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -590,7 +522,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТЧСостояниеПросмотраКонтекстноеМеню</name>
-        <id>24</id>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -611,10 +543,10 @@
         <common>true</common>
       </userVisible>
       <name>ТЧУправлениеПоиском</name>
-      <id>26</id>
+      <id>23</id>
       <extendedTooltip>
         <name>ТЧУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>28</id>
+        <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -629,7 +561,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТЧУправлениеПоискомКонтекстноеМеню</name>
-        <id>27</id>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -645,7 +577,7 @@
     </searchControlAddition>
     <extendedTooltip>
       <name>ТЧРасширеннаяПодсказка</name>
-      <id>19</id>
+      <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -660,7 +592,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ТЧКонтекстноеМеню</name>
-      <id>17</id>
+      <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -694,16 +626,16 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаПечать</name>
-      <id>44</id>
+      <name>ФормаСоздатьЗаявленияНаПереаттестацию</name>
+      <id>41</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПечатьРасширеннаяПодсказка</name>
-        <id>45</id>
+        <name>ФормаСоздатьЗаявленияНаПереаттестациюРасширеннаяПодсказка</name>
+        <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -716,7 +648,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Печать</commandName>
+      <commandName>Form.Command.СоздатьЗаявленияНаПереаттестацию</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -744,7 +676,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ЗаявленияНаПересдачу</types>
+      <types>DocumentObject.УспеваемостьСтудентов</types>
     </valueType>
     <view>
       <common>true</common>
@@ -759,22 +691,22 @@
     <savedData>true</savedData>
   </attributes>
   <formCommands>
-    <name>Печать</name>
+    <name>СоздатьЗаявленияНаПереаттестацию</name>
     <title>
       <key>ru</key>
-      <value>Печать</value>
+      <value>Создать заявления на переаттестацию</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Печать</value>
+      <value>Создать заявления на переаттестацию</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Печать</name>
+        <name>СоздатьЗаявленияНаПереаттестацию</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
