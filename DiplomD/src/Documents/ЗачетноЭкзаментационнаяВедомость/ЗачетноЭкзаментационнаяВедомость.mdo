@@ -344,4 +344,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="41d8af9f-3f36-4a13-af2e-bc20d1ca6206">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
