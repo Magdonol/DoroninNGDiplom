@@ -18,5 +18,6 @@
   <content>Document.ЗаявленияНаПересдачу</content>
   <content>Document.Переаттестация</content>
   <content>Document.ЖурналВыдачиЭкзаменационныхВедомостей</content>
+  <content>DataProcessor.СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей</content>
   <parentSubsystem>Subsystem.АттестацияСтудентов</parentSubsystem>
 </mdclass:Subsystem>

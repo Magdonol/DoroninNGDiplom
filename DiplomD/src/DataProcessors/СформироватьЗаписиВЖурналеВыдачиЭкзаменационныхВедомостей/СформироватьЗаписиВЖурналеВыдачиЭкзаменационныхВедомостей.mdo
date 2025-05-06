@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99fcdce1-480a-465d-b5fc-95069505bfac">
+  <producedTypes>
+    <objectType typeId="11fdfe9a-d030-4357-8ac2-ff9570234369" valueTypeId="af3fb161-c389-4fda-a119-d6e9de63f7e1"/>
+    <managerType typeId="3c8dd80d-1767-4482-b4ad-4884b2d467fa" valueTypeId="9e75bee4-830e-4d3f-8a54-37b8695f1a55"/>
+  </producedTypes>
+  <name>СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сформировать записи в журнале выдачи экзаменационных ведомостей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей.Form.Форма</defaultForm>
+  <attributes uuid="193de6b0-b46f-427e-be1b-fb57e3aa12a8">
+    <name>ПериодСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период сессии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПланСдачиСессии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="17ef13f2-698c-496e-9958-a030c10927c6">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da177c66-e9ea-4ddb-bcef-dd3f49b4386e">
+    <name>ДатаНачалаСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="658d3134-bbea-46db-b382-cb936f174346">
+    <name>ДатаОкончанияСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bc0b351-7a35-431d-ae00-cd84c0ca3956">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c787fb83-d4d3-41c0-8a72-fb7b2fa10c72">
+    <producedTypes>
+      <objectType typeId="44cd4c6d-8443-4083-8ba6-bed5ca597aea" valueTypeId="33502b14-0a39-4589-b650-c084ed0ba5ef"/>
+      <rowType typeId="683c9038-f27a-4c55-808b-22eca6ec140c" valueTypeId="f7626eed-4730-4c3e-aa02-3a4843de1f6e"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="8c7fbefc-34e8-4fbd-8208-d0e96bb1de04">
+      <name>Ведомость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ведомость</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗачетноЭкзаментационнаяВедомость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="42fbc1ef-34ac-4772-865d-978043392df9">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="419f0e2e-5f88-44a4-bee7-ab4d04ba827e">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочаяПрограммаДисцилины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b4f7bbae-bcb0-4e5f-9b62-c91deb6140e6">
+      <name>Принял</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принял</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПреподавательскийСостав</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="09efc09b-9edc-4f36-819f-184cbf2c0567">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
