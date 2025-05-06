@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78eb7337-7659-4efb-b431-20fe51186786">
+  <name>ТекущийПользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий пользователь</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПользователиИС</types>
+  </type>
+</mdclass:SessionParameter>

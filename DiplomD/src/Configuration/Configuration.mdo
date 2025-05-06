@@ -41,6 +41,8 @@
   <subsystems>Subsystem.АттестацияСтудентов</subsystems>
   <subsystems>Subsystem.РегистрационнаяИнформация</subsystems>
   <subsystems>Subsystem.УспеваемостьСтудентов</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.АдминистраторИС</roles>
   <commonModules>CommonModule.ПереводВЧетырехБалСистему</commonModules>
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
