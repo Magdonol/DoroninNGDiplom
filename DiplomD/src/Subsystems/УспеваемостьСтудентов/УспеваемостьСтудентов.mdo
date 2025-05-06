@@ -15,4 +15,5 @@
   <content>Report.РейтингСтудентов</content>
   <content>Report.ОбщиеПоказателиУспеваемостиСтудентов</content>
   <content>Report.ОтчетОПроведенииСессии</content>
+  <content>Report.ОтчетОПроведенииПереаттестации</content>
 </mdclass:Subsystem>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37f6eddb-c5ef-4c0b-a936-fdc3578331e1">
+  <producedTypes>
+    <objectType typeId="d3cb6684-6700-4ff1-9250-52a187c950ae" valueTypeId="5e1a1efa-29df-4204-9421-aebb2c2be2ae"/>
+    <managerType typeId="71e94a39-720c-42f3-9a05-731a009f3b35" valueTypeId="cb7fb4d7-6a32-4686-8611-b6926f1fc46d"/>
+  </producedTypes>
+  <name>ОтчетОПроведенииПереаттестации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о проведении переаттестации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетОПроведенииПереаттестации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="9d4d5ed4-95b0-48e6-a906-2e09c25ff4a2">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="79d67fdf-ac9c-4e19-bda3-d75cbb480097">
+    <producedTypes>
+      <objectType typeId="faec061a-a3d6-4cac-b64f-eb4923ebc108" valueTypeId="84826d26-24e3-4634-a8cb-c14beed42a40"/>
+      <rowType typeId="3ca51a51-3afb-4a9e-9f7a-833d2b7e20bd" valueTypeId="65193eef-c9f4-4ff6-833b-501817d95531"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="395b4e72-1ecb-4893-a6b4-fbe6e16ab6bc">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокСтудентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f05307bd-cf48-4cbb-86f9-79e95d4b21b8">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8379f860-add1-4acb-b0b0-0ab37c870789">
+      <name>НомерЗачетнойКнижки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер зачетной книжки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c22fada7-9c07-4790-8220-910bf3a41259">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочаяПрограммаДисцилины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bbf91d02-064a-4d57-9f7b-e27e909adf90">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <types>EnumRef.ВидыОценокЗачет</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="89b24460-49cb-475d-a378-dd3df169d341">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bacb03d6-8a1e-4e4f-a94e-faabd504312d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
