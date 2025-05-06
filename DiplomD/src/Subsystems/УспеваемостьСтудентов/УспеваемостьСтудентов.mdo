@@ -14,4 +14,5 @@
   <content>AccumulationRegister.Сессия</content>
   <content>Report.РейтингСтудентов</content>
   <content>Report.ОбщиеПоказателиУспеваемостиСтудентов</content>
+  <content>Report.ОтчетОПроведенииСессии</content>
 </mdclass:Subsystem>

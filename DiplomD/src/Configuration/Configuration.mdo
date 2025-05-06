@@ -83,6 +83,7 @@
   <enums>Enum.ФормаОценки</enums>
   <enums>Enum.ФормыТекущегоКонтроля</enums>
   <reports>Report.ОбщиеПоказателиУспеваемостиСтудентов</reports>
+  <reports>Report.ОтчетОПроведенииСессии</reports>
   <reports>Report.РейтингСтудентов</reports>
   <dataProcessors>DataProcessor.СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей</dataProcessors>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>

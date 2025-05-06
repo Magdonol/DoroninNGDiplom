@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f048e31f-288a-4d42-8c3b-58ffd1e51aa8">
+  <producedTypes>
+    <objectType typeId="b83967f6-12e0-472d-8e48-4f2c37d2a48a" valueTypeId="d97f4f39-b0a8-4231-b9de-a9d4da226d33"/>
+    <managerType typeId="1afcce22-da3b-4484-b583-10ae7807da54" valueTypeId="bbc0b3c5-8d33-489f-906a-7ce671c70b95"/>
+  </producedTypes>
+  <name>ОтчетОПроведенииСессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о проведении сессии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетОПроведенииСессии.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="ed6e944c-f359-4e3e-9f90-81f58039d02c">
+    <name>ПериодСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период сессии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПланСдачиСессии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3923993f-da11-467a-881c-25b072cbc64e">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2df3e853-dff8-4823-b3f5-e8363d520f44">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd8e1f96-2b82-4710-9feb-4ee4712e0f11">
+    <name>ДатаНачалаСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebc7e4ae-ff52-49f5-b36a-40f22731d029">
+    <name>ДатаОкончанияСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="031bd7d0-7049-4fdb-a632-4bda04c596e4">
+    <producedTypes>
+      <objectType typeId="2b5fa060-d7a6-4140-abd2-84a1f173d422" valueTypeId="783b7e75-0767-4510-8a1e-d48830b616aa"/>
+      <rowType typeId="b2beba22-0448-40f8-b5be-1248de97de1d" valueTypeId="494f22d0-887e-4748-96d0-1984d75e457e"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="6aa34698-81f4-4081-8203-1a98934a0fcc">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="10719485-d757-4616-a52a-b62c370a1f16">
+      <name>КоличествоВыставленныхОценок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество выставленных оценок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c912cba9-e812-4386-87b4-8c39847257bd">
+      <name>КоличествоПроведенныхПереаттестаций</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество проведенных переаттестаций</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dec885d6-f089-4361-99b0-c75b458dfe9f">
+      <name>КоличествоАкадемическихЗадолженностей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество академических задолженностей</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e66e6533-5ede-4561-9984-ea23e9884281">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8a8fdf5e-c651-434d-af4b-31a037fc211b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
