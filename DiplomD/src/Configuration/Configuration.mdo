@@ -86,6 +86,7 @@
   <reports>Report.ОтчетОПроведенииПереаттестации</reports>
   <reports>Report.ОтчетОПроведенииСессии</reports>
   <reports>Report.РейтингСтудентов</reports>
+  <reports>Report.УспеваемостьСтудентовПоДисцилинам</reports>
   <dataProcessors>DataProcessor.СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей</dataProcessors>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РейтингСтудентов</accumulationRegisters>

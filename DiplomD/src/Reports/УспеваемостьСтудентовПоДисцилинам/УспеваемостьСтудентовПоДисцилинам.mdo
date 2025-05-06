@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db581a8b-edda-4e4e-b113-b432263ceda3">
+  <producedTypes>
+    <objectType typeId="5eacbb41-4155-4672-b04a-1caaf6005097" valueTypeId="539ff320-8c6c-4df9-b0ea-9053daec0716"/>
+    <managerType typeId="60363344-e9bd-4201-b936-2fff38441dfb" valueTypeId="00431469-ce23-48af-b8fa-d081df8cb1c9"/>
+  </producedTypes>
+  <name>УспеваемостьСтудентовПоДисцилинам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Успеваемость студентов по дисцилинам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.УспеваемостьСтудентовПоДисцилинам.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="1ab553dd-2c25-4e4b-be48-8316d6670483">
+    <name>НаправлениеПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление подготовки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиНаправления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="06375359-c350-423a-86a4-1ad72b305d0a">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bda2cb43-0034-4ebb-b72a-0f1e1446d965">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4a692c78-cace-4cab-b69b-e72f5c953f3a">
+    <producedTypes>
+      <objectType typeId="605cb769-9097-492d-82fa-8b4801a62754" valueTypeId="3e458ef9-4c7f-4d08-93b1-20b8f9dc8e82"/>
+      <rowType typeId="99a03507-1f53-42d7-b9e9-c9d4432ead0d" valueTypeId="84c94795-33c0-49bf-8f78-bd0938ef6957"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <attributes uuid="716bd7f6-9daa-4149-b771-1e75f2412531">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="eb4e9960-1e77-46cd-9460-0f8774612bdc">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочаяПрограммаДисцилины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a05573a0-3a08-415a-a2a4-267287ec7136">
+      <name>ВидКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид контроля</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="237ee0e0-0d87-4f2f-8ee2-0bcf895f48ba">
+      <name>ВидАттестации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид аттестации</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыромежуточнойАттестации</types>
+        <types>EnumRef.АттестационныеМероприятия</types>
+        <types>EnumRef.ФормыТекущегоКонтроля</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="08316b28-1b2f-43bd-a841-f803cbae56da">
+      <name>КоличествоОценок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество оценок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="560ff24e-ef25-4d99-aa06-6e5283db3b82">
+      <name>КоличествоАкадемическихЗадолженностей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество академических задолженностей</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="67c9bb9c-5ea2-4372-a3cd-f66928aa02f9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f5456f1e-bcb9-48f9-9cdf-08ddb2903412">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
