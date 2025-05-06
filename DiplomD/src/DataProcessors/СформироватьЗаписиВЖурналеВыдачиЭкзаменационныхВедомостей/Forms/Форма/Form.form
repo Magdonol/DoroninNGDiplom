@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ПериодСессии</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПериодСессииПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПериодСессииРасширеннаяПодсказка</name>
       <id>3</id>
@@ -350,6 +354,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТЧ.Ведомость</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧВедомостьПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧВедомостьРасширеннаяПодсказка</name>
         <id>34</id>
@@ -737,6 +745,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ФормаСформироватьПереченьВедомостей</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
