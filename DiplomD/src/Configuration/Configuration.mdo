@@ -80,6 +80,7 @@
   <enums>Enum.ФормаОплатыОбучения</enums>
   <enums>Enum.ФормаОценки</enums>
   <enums>Enum.ФормыТекущегоКонтроля</enums>
+  <reports>Report.РейтингСтудентов</reports>
   <dataProcessors>DataProcessor.СформироватьЗаписиВЖурналеВыдачиЭкзаменационныхВедомостей</dataProcessors>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РейтингСтудентов</accumulationRegisters>
