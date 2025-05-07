@@ -43,6 +43,7 @@
   <subsystems>Subsystem.УспеваемостьСтудентов</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.АдминистраторИС</roles>
+  <roles>Role.СотрудникКафедры</roles>
   <commonModules>CommonModule.ПереводВЧетырехБалСистему</commonModules>
   <constants>Constant.КоличествоДопустимыхАкадемическихЗадолженностей</constants>
   <constants>Constant.ПроректорПоУчебнойРаботе</constants>
