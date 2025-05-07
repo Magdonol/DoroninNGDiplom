@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ДолжностиПользователей</content>
+  <content>Task.Задача</content>
   <subsystems>ОбразовательныеПрограммы</subsystems>
   <subsystems>СотрудникиИПреподаватели</subsystems>
   <subsystems>СтудентыИГруппы</subsystems>

@@ -94,4 +94,6 @@
   <accumulationRegisters>AccumulationRegister.РейтингСтудентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Сессия</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УспеваемостьСтудентов</accumulationRegisters>
+  <businessProcesses>BusinessProcess.ВыдачаЭкзаменационныхВедомостей</businessProcesses>
+  <tasks>Task.Задача</tasks>
 </mdclass:Configuration>

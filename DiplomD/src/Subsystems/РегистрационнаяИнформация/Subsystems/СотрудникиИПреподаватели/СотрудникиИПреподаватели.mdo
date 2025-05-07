@@ -14,5 +14,6 @@
   <content>Catalog.ПользователиИС</content>
   <content>Catalog.ДолжностиПользователей</content>
   <content>InformationRegister.РолиИсполнителейЗадач</content>
+  <content>Task.Задача</content>
   <parentSubsystem>Subsystem.РегистрационнаяИнформация</parentSubsystem>
 </mdclass:Subsystem>

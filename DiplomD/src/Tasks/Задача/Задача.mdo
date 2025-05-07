@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51d6a1d-1a48-49a2-b996-8487f816bbed">
+  <producedTypes>
+    <objectType typeId="68d392ab-2cb9-4ac9-81c3-a1bd316bb6ac" valueTypeId="68e3fb3f-54ae-4b34-be64-07fcc5f28d94"/>
+    <refType typeId="7eeeb2e7-3112-482c-a707-beefe52a595e" valueTypeId="07e6ae0a-6077-4804-acd8-54cca223e258"/>
+    <selectionType typeId="746dcd5a-aea0-48c6-b754-9e3da16d2f22" valueTypeId="ea2e9dda-95b9-486c-acd0-610c6f83e136"/>
+    <listType typeId="dc6a7a7f-f2ee-45a3-a670-ae2ac30b98e5" valueTypeId="ecb38369-aa5f-4659-8e26-e7494a22328e"/>
+    <managerType typeId="abaa1226-83e0-4858-9ec3-3f5d1ffb5c0f" valueTypeId="079f673f-eca7-4e0e-87ea-735645312e07"/>
+  </producedTypes>
+  <name>Задача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.Задача.StandardAttribute.Number</inputByString>
+  <inputByString>Task.Задача.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <addressing>InformationRegister.РолиИсполнителейЗадач</addressing>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <forms uuid="26c35411-29d3-471a-9351-ee554174c30a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="ebba283a-3181-4d4c-8a57-479dcb1da088">
+    <name>ПользовательИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ИС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="a2886901-fa1d-4ed5-b705-b096df42472a">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДолжностиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

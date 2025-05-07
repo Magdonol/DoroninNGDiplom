@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="042d7515-d510-4a96-a9f5-d0e58d2aee12">
+  <producedTypes>
+    <objectType typeId="d297de2d-843b-4934-ad59-01803d055461" valueTypeId="3248de6c-a789-4da6-bbfe-3182b944c7e8"/>
+    <refType typeId="042ce316-9550-4f54-b303-45d735510db8" valueTypeId="7800dd8e-c0b1-444f-b30e-c7445549337a"/>
+    <selectionType typeId="58d022c4-c361-43b3-9644-36b0ea90bdd3" valueTypeId="1172be92-0e3d-4ebc-aec4-2ab57ddb7eea"/>
+    <listType typeId="bfded0c1-495f-4ef9-a3d4-4722c5c1f99a" valueTypeId="eb6ee293-1c82-43ff-8de2-0ea10595722f"/>
+    <managerType typeId="49b45533-a483-416b-b075-af1fb0ae1be5" valueTypeId="33cfe7a7-7ae7-4b42-881b-77bcb1077a6a"/>
+    <routePointRef typeId="c79cbd3f-e969-442a-a44d-eb467e4eed96" valueTypeId="61bcab1a-18e7-4d69-af0a-3dec7532906c"/>
+  </producedTypes>
+  <name>ВыдачаЭкзаменационныхВедомостей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача экзаменационных ведомостей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ВыдачаЭкзаменационныхВедомостей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ВыдачаЭкзаменационныхВедомостей.Form.ФормаЭлемента</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задача</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="dbffb84b-4742-43bf-9507-0a54e474b808">
+    <name>ПодходящийСрокВыдачиВедомостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подходящий срок выдачи ведомостей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="d02497fb-82eb-445c-8680-eb6ab6bb0615">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>
