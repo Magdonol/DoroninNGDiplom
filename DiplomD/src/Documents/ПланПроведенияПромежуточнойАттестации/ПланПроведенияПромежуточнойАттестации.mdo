@@ -167,6 +167,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d68a4041-5506-4561-b941-2cc973f2c9aa">
+    <name>НачалоСеметраДляТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало семетра для тестов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="259bfb30-cf9c-44db-a878-561531659395">
+    <name>КонецСеместраДляТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец семестра для тестов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="bc6ac597-85b4-47f9-8ac4-84835c3f42ee">
     <name>ФормаДокумента</name>
     <synonym>

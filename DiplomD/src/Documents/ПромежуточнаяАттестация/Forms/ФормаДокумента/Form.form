@@ -466,10 +466,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа1</value>
-    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>63</id>
@@ -666,6 +662,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТЧ.БаллПромежуточнойАттестации</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧБаллПромежуточнойАттестацииПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧБаллПромежуточнойАттестацииРасширеннаяПодсказка</name>
         <id>61</id>

@@ -180,6 +180,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="dcd8e326-808f-47d2-9969-f59dcf4cf931">
+    <name>Пр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="713dd05b-d3b0-432f-b85b-989db9c327e9">
     <name>ФормаДокумента</name>
     <synonym>

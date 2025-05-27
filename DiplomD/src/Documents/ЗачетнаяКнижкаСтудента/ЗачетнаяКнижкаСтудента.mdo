@@ -230,22 +230,5 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="aa124360-49bc-45ce-b906-97414f5b5f6d">
-      <name>ОбщийСеместровыйРейтинг</name>
-      <synonym>
-        <key>ru</key>
-        <value>Общий семестровый рейтинг</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
   </tabularSections>
 </mdclass:Document>
