@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="965a9c64-4fe7-4e71-849c-29693858c243">
+  <producedTypes>
+    <refType typeId="8ce3a6ce-b597-4938-966a-60b3ab1e02a3" valueTypeId="4fdf8fda-bf09-4019-a384-2d40320a33a0"/>
+    <listType typeId="ad4ea488-e46a-4f24-8e7d-1d734a8f4ade" valueTypeId="75ae4c7b-3772-4a5c-91bb-380e8b94b2da"/>
+    <managerType typeId="21ca8b57-1b87-40db-8637-6831e54cb63e" valueTypeId="e0e32e25-6b7d-4094-9afb-cc3331a49ef8"/>
+  </producedTypes>
+  <name>ОценкаЧисло</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка число</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56b35062-6340-4f10-a4bc-638225b0fce3">
+    <name>Два</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e96499a-596f-446c-8eed-c1ec22709b07">
+    <name>Три</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc072451-1655-4890-8f7e-fe349c5c84e6">
+    <name>Четыре</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5252b1e8-2259-4d52-b817-a70dcfe8bf92">
+    <name>Пять</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

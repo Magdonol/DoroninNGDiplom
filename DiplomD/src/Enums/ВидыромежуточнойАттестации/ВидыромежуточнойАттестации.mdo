@@ -19,11 +19,4 @@
       <value>Тест</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="53ab414f-6d8a-4704-b2bd-bd76c802b0b7">
-    <name>РейтинговаяРабота</name>
-    <synonym>
-      <key>ru</key>
-      <value>Рейтинговая работа</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

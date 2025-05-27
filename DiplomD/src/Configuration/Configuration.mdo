@@ -80,9 +80,9 @@
   <enums>Enum.ВидыОценокЗачет</enums>
   <enums>Enum.ВидыромежуточнойАттестации</enums>
   <enums>Enum.ГодНачалаОбучения</enums>
+  <enums>Enum.ОценкаЧисло</enums>
   <enums>Enum.Семестры</enums>
   <enums>Enum.СтатусыЧленовКомиссии</enums>
-  <enums>Enum.ФормаОплатыОбучения</enums>
   <enums>Enum.ФормаОценки</enums>
   <enums>Enum.ФормыТекущегоКонтроля</enums>
   <reports>Report.ОбщиеПоказателиУспеваемостиСтудентов</reports>
