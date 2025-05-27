@@ -79,6 +79,7 @@
   <enums>Enum.ВидОценивания</enums>
   <enums>Enum.ВидыОценокЗачет</enums>
   <enums>Enum.ВидыромежуточнойАттестации</enums>
+  <enums>Enum.ГодНачалаОбучения</enums>
   <enums>Enum.Семестры</enums>
   <enums>Enum.СтатусыЧленовКомиссии</enums>
   <enums>Enum.ФормаОплатыОбучения</enums>

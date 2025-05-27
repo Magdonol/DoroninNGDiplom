@@ -38,7 +38,7 @@
     <name>ТекущийКонтроль</name>
     <synonym>
       <key>ru</key>
-      <value>Текущий контроль</value>
+      <value>текущий контроль</value>
     </synonym>
     <attributes uuid="77656582-f3ec-4361-9a1e-5628256c8d93">
       <name>ФормаОбучения</name>

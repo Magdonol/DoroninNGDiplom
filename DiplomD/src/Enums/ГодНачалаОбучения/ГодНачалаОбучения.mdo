@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c880dab-c6a4-4232-8e0d-d065d4320b9d">
+  <producedTypes>
+    <refType typeId="245955c2-309d-4eb5-95ff-823f185f9ab1" valueTypeId="c3a49106-7694-4b48-a326-258b50b03f65"/>
+    <listType typeId="c5fab6e7-c30c-4078-8000-447899f41b57" valueTypeId="020b1bbc-26f1-43dd-9ac9-3c3531600361"/>
+    <managerType typeId="30ef509c-c0f4-4a89-a3f2-8a98f4883ba0" valueTypeId="2fec9b2e-8620-4b91-9357-8e2ab1b911f1"/>
+  </producedTypes>
+  <name>ГодНачалаОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Год начала обучения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59251b07-101e-4718-84ef-30e010e3ea17">
+    <name>а</name>
+    <synonym>
+      <key>ru</key>
+      <value>2024</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0389d6f-2594-4cce-8c61-7eab707b2e89">
+    <name>б</name>
+    <synonym>
+      <key>ru</key>
+      <value>2025</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

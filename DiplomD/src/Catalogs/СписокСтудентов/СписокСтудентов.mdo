@@ -118,25 +118,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="08436f67-4a47-4631-86e3-269ccef86f93">
-    <name>БаллВступительныхИспытаний</name>
-    <synonym>
-      <key>ru</key>
-      <value>Балл вступительных испытаний</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="ee1dde5a-a72e-44a5-92e0-27185b6b0d04">
     <name>СтатусЗачисления</name>
     <synonym>
