@@ -16,5 +16,5 @@
   <content>Report.ОбщиеПоказателиУспеваемостиСтудентов</content>
   <content>Report.ОтчетОПроведенииСессии</content>
   <content>Report.ОтчетОПроведенииПереаттестации</content>
-  <content>Report.УспеваемостьСтудентовПоДисцилинам</content>
+  <content>Report.УспеваемостьГруппПоДисцилинам</content>
 </mdclass:Subsystem>

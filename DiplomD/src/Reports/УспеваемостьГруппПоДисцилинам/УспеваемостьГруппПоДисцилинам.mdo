@@ -4,13 +4,13 @@
     <objectType typeId="5eacbb41-4155-4672-b04a-1caaf6005097" valueTypeId="539ff320-8c6c-4df9-b0ea-9053daec0716"/>
     <managerType typeId="60363344-e9bd-4201-b936-2fff38441dfb" valueTypeId="00431469-ce23-48af-b8fa-d081df8cb1c9"/>
   </producedTypes>
-  <name>УспеваемостьСтудентовПоДисцилинам</name>
+  <name>УспеваемостьГруппПоДисцилинам</name>
   <synonym>
     <key>ru</key>
-    <value>Успеваемость студентов по дисцилинам</value>
+    <value>Успеваемость групп по дисцилинам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>Report.УспеваемостьСтудентовПоДисцилинам.Form.ФормаОтчета</defaultForm>
+  <defaultForm>Report.УспеваемостьГруппПоДисцилинам.Form.ФормаОтчета</defaultForm>
   <attributes uuid="1ab553dd-2c25-4e4b-be48-8316d6670483">
     <name>НаправлениеПодготовки</name>
     <synonym>
@@ -43,6 +43,18 @@
     </synonym>
     <type>
       <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5a2b1887-6b65-4190-b564-83a553d2d220">
+    <name>ГодНачалаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год начала обучения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГодНачалаОбучения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

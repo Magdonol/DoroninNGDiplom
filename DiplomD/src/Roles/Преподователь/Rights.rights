@@ -2793,7 +2793,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.УспеваемостьСтудентовПоДисцилинам</name>
+		<name>Report.УспеваемостьГруппПоДисцилинам</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
